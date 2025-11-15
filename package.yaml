@@ -8,11 +8,13 @@ copyright:           "Copyright (c) 2025 Yoshikuni Jujo"
 
 extra-source-files:
 - README.md
+
+extra-doc-files:
 - CHANGELOG.md
 
 # Metadata used when publishing your package
-# synopsis:            Short description of your package
-# category:            Web
+synopsis:            Basic monads implemented on Yaftee
+category:            Category
 
 # To avoid duplicated efforts in documentation and dealing with the
 # complications of embedding Haddock markup inside cabal files, it is
@@ -21,10 +23,10 @@ description:         Please see the README on GitHub at <https://github.com/Yosh
 
 dependencies:
 - base >= 4.7 && < 5
-- yaftee
-- higher-order-freer-monad
-- higher-order-open-union
-- ftcqueue
+- yaftee >= 0.1 && < 0.2
+- higher-order-freer-monad >= 0.1 && < 0.2
+- higher-order-open-union >= 0.1 && < 0.2
+- ftcqueue >= 0.1 && < 0.2
 
 ghc-options:
 - -Wall
